@@ -9,7 +9,6 @@ export default function CommunityGuidelinesPage() {
     <PageShell
       path="/community-guidelines"
       intro="These rules apply to every clip, comment, profile and battle entry on Gully Fame India."
-      updated="[DD Month 2026]"
     >
       <div className="gf-prose">
         <h2>The short version</h2>

@@ -329,6 +329,7 @@ export const footerColumns = [
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
       { label: "Community Guidelines", href: "/community-guidelines" },
+      { label: "Delete Account", href: "/delete-account" },
     ],
   },
 ] as const;

@@ -46,6 +46,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${rubik.variable} ${playfair.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="bg-page flex min-h-full flex-col text-white">
+        {/* Keyboard users can jump past the header; visible only while focused. */}
+        <a
+          href="#main-content"
+          className="bg-orange text-ink focus:ring-ink sr-only rounded-full px-4 py-2 font-bold focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:ring-2"
+        >
+          Skip to main content
+        </a>
         {children}
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={websiteJsonLd} />

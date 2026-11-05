@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <SiteHeader />
-      <main className="grow overflow-x-clip">
+      <main id="main-content" className="grow overflow-x-clip">
         <Hero />
         <Marquee />
         <HowItWorks />

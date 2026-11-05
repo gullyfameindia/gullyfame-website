@@ -150,6 +150,26 @@
       "schemaType": "WebPage",
       "changefreq": "yearly",
       "priority": 0.4
+    },
+    {
+      "path": "/delete-account",
+      "title": "Delete your account",
+      "seoTitle": "Delete your account",
+      "heading": "Delete your",
+      "accent": "account.",
+      "eyebrow": "account deletion",
+      "description": "How to ask Gully Fame India to delete your account and personal data, what is deleted, what we may keep, and how long it takes.",
+      "keywords": [
+        "delete Gully Fame account",
+        "account deletion",
+        "delete my data",
+        "Gully Fame India privacy"
+      ],
+      "ogImage": "/og/contact.png",
+      "ogAlt": "Gully Fame India account deletion.",
+      "schemaType": "WebPage",
+      "changefreq": "yearly",
+      "priority": 0.3
     }
   ],
   "updates": []

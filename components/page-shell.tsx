@@ -25,7 +25,7 @@ export function PageShell({ path, intro, updated, children }: Props) {
   return (
     <>
       <SiteHeader active={path} />
-      <main className="grow overflow-x-clip">
+      <main id="main-content" className="grow overflow-x-clip">
         <div className="bg-brown border-ink relative overflow-hidden border-b-[3px]">
           <div
             aria-hidden="true"
