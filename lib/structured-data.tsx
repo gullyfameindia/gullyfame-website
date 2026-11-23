@@ -8,7 +8,7 @@ export const organizationJsonLd = {
   "@type": "Organization",
   name: siteConfig.name,
   url: siteConfig.url,
-  logo: `${siteConfig.url}/images/gully-fame-india-logo.webp`,
+  logo: `${siteConfig.url}/logo.webp`,
   email: siteConfig.contactEmail,
   sameAs: [
     siteConfig.social.instagram,

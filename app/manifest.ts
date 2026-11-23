@@ -11,11 +11,10 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: siteConfig.backgroundColor,
     theme_color: siteConfig.themeColor,
     icons: [
-      { src: "/apple-icon.png", sizes: "180x180", type: "image/png" },
       {
-        src: "/images/icon-512.png",
-        sizes: "512x512",
-        type: "image/png",
+        src: "/appicon.webp",
+        sizes: "1254x1254",
+        type: "image/webp",
         purpose: "any",
       },
     ],

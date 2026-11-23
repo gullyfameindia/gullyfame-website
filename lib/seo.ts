@@ -185,7 +185,7 @@ export const defaultMetadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [{ url: "/appicon.webp", type: "image/webp", sizes: "1254x1254" }],
     apple: "/apple-icon.png",
   },
   ...(siteConfig.verification.google

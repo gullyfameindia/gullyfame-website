@@ -23,10 +23,10 @@ export function SiteFooter() {
         <div data-reveal="up" className="gf-reveal flex flex-wrap justify-between gap-12">
           <div className="flex flex-1 basis-[260px] flex-col gap-4">
             <Image
-              src="/images/gully-fame-india-logo.webp"
+              src="/logo.webp"
               alt={siteConfig.name}
-              width={560}
-              height={244}
+              width={578}
+              height={432}
               sizes="260px"
               className="-ml-3 w-[260px]"
             />
