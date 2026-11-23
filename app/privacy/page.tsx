@@ -6,7 +6,6 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata("/privacy");
 
 /*
-<<<<<<< HEAD
  * Based on "PRIVACY POLICY - GullyFame India", V03.09.2026 (version 1.0), in
  * documents/. Version 1.1 keeps that document's structure and legal wording
  * but describes what the app and backend actually collect and use (checked
@@ -14,12 +13,6 @@ export const metadata = pageMetadata("/privacy");
  * the real sign-up and profile fields, KYC document and selfie images,
  * approximate location, chat, AI captions, no ads or analytics SDKs, and the
  * named service providers. Contact details match the GST registration.
-=======
- * Source: "PRIVACY POLICY - GullyFame India", V03.09.2026 (version 1.0).
- * Wording follows that document; only spelling slips were corrected.
- * Bracketed [ ] items are details the document leaves blank — fill them in
- * before publishing.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
  */
 
 const sections = [
@@ -31,11 +24,7 @@ const sections = [
   { id: "lawful-basis", title: "Lawful basis, notice and consent" },
   { id: "personalisation", title: "Personalisation, analytics and advertising" },
   { id: "creator-content", title: "Creator content and platform rights" },
-<<<<<<< HEAD
   { id: "payments-kyc", title: "Payments, KYC and creator payouts" },
-=======
-  { id: "payments-kyc", title: "Payments, KYC and creator monetisation" },
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
   { id: "competitions", title: "Competitions, rewards and integrity" },
   { id: "ai-content", title: "AI, deepfakes and synthetic content" },
   { id: "sharing", title: "Sharing and disclosure" },
@@ -59,18 +48,13 @@ export default function PrivacyPage() {
     <PageShell
       path="/privacy"
       intro="What personal data GullyFame India collects, why we collect it, how we use and share it, how long we keep it, and the rights you have over it."
-<<<<<<< HEAD
       updated="24 November 2026 · Version 1.1 (effective 3 September 2026)"
-=======
-      updated="3 September 2026 · Version 1.0"
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
     >
       <LegalContents items={sections} />
 
       <div className="gf-prose">
         <h2 {...h(1)} className="mt-0!">1. Introduction</h2>
         <p>
-<<<<<<< HEAD
           Gully Fame India Private Limited (&quot;GullyFame India,&quot;
           &quot;we,&quot; &quot;us,&quot; &quot;our,&quot; or the
           &quot;Company&quot;) operates the GullyFame India mobile application
@@ -81,18 +65,6 @@ export default function PrivacyPage() {
           Data Protection Rules, 2025, to the extent applicable and in force,
           the Information Technology Act, 2000 and applicable rules, and other
           applicable privacy, cybersecurity and intermediary requirements.
-=======
-          GullyFame India (&quot;we,&quot; &quot;us,&quot; &quot;our,&quot; or
-          the &quot;Company&quot;) operates the GullyFame India mobile
-          application and related services (collectively, the
-          &quot;Platform&quot;). We respect your privacy and are committed to
-          protecting personal data in accordance with applicable Indian law,
-          including the Digital Personal Data Protection Act, 2023 (&quot;DPDP
-          Act&quot;), the Digital Personal Data Protection Rules, 2025, to the
-          extent applicable and in force, the Information Technology Act, 2000
-          and applicable rules, and other applicable privacy, cybersecurity and
-          intermediary requirements.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
         <p>
           This Privacy Policy (&quot;Policy&quot;) explains what personal data
@@ -104,7 +76,6 @@ export default function PrivacyPage() {
         <h2 {...h(2)}>2. Scope</h2>
         <p>
           This Policy applies to personal data processed through the Platform,
-<<<<<<< HEAD
           including the GullyFame India mobile application, this website,
           competitions, payments, payouts and support channels. Where a feature
           has a separate privacy notice or specific terms, that notice will
@@ -121,12 +92,6 @@ export default function PrivacyPage() {
           not use cookies, advertising or analytics trackers. Our hosting
           provider may keep standard server logs, such as IP address and pages
           requested, to deliver and secure the website.
-=======
-          including the mobile application, websites, APIs, integrations,
-          creator tools, competitions, payments, support channels and related
-          services. Where a feature has a separate privacy notice or specific
-          terms, that notice will apply together with this Policy.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(3)}>3. Definitions</h2>
@@ -144,7 +109,6 @@ export default function PrivacyPage() {
           <li>
             <strong>&quot;Consent&quot;</strong> means a lawful, informed,
             specific and unambiguous indication of the individual&apos;s wishes,
-<<<<<<< HEAD
             where consent is the applicable basis of processing.
           </li>
           <li>
@@ -153,14 +117,6 @@ export default function PrivacyPage() {
             add to a video in the editor), captions, comments and chat messages
             submitted or shared through the Platform. The Platform does not
             support posting standalone photos.
-=======
-            where the consent is the applicable basis of processing.
-          </li>
-          <li>
-            <strong>&quot;User Content&quot;</strong> means photos, videos,
-            audio, text, comments, messages and other material submitted or
-            shared through the Platform.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           </li>
         </ul>
 
@@ -173,7 +129,6 @@ export default function PrivacyPage() {
         <h3>4.1 Information you provide</h3>
         <ul>
           <li>
-<<<<<<< HEAD
             <strong>Account and profile data:</strong> first and last name,
             username, mobile number, email address, password (stored only in
             hashed form), date of birth, gender, profile photograph, the role
@@ -214,38 +169,11 @@ export default function PrivacyPage() {
             (Aadhaar card, PAN card, passport, driving licence or other), photos
             of the front and back of that document, and a selfie photo used to
             match you to the document.
-=======
-            <strong>Identity data:</strong> name, date of birth, gender and
-            profile photograph.
-          </li>
-          <li>
-            <strong>Contact data:</strong> mobile number, email address and,
-            where required, address/city/state/PIN code.
-          </li>
-          <li>
-            <strong>Account data:</strong> username, password and
-            account-security information.
-          </li>
-          <li>
-            <strong>User Content:</strong> photos, videos, audio, text posts,
-            comments, messages and other content you upload or share.
-          </li>
-          <li>
-            <strong>Communications:</strong> support requests, feedback, surveys
-            and correspondence.
-          </li>
-          <li>
-            <strong>Payment/KYC data:</strong> bank account details, IFSC, UPI
-            ID, payment information and, where legally/operationally necessary,
-            government identification such as PAN or other permitted KYC
-            information.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           </li>
         </ul>
 
         <h3>4.2 Sensitive/high-risk information</h3>
         <p>
-<<<<<<< HEAD
           We treat KYC document images and selfies as high-risk information.
           They are used only to verify your identity and eligibility for
           payouts, are reviewed by authorised staff, and are not shown to other
@@ -316,60 +244,6 @@ export default function PrivacyPage() {
           <li>detect fraud, spam, abuse, vote manipulation and security threats;</li>
           <li>moderate and protect the Platform and its community;</li>
           <li>troubleshoot crashes and errors; and</li>
-=======
-          Where the Platform uses biometric authentication or processes other
-          information that is specially regulated or otherwise high-risk, we
-          will provide the required notice and obtain consent or rely on another
-          lawful basis where permitted. We will not collect such information
-          merely because it is listed in a generic category; collection will
-          depend on the feature you use.
-        </p>
-
-        <h3>4.3 Information collected automatically</h3>
-        <p>
-          We may collect device and technical information such as device model,
-          operating-system version, app version, identifiers permitted by law,
-          IP address, logs, crash reports, performance information, timestamps
-          and security signals. We may collect approximate or precise location
-          only where enabled by you, required for a feature, or otherwise
-          permitted by law, if needed.
-        </p>
-
-        <h3>4.4 Information from third parties</h3>
-        <p>
-          We may receive information from connected accounts, payment
-          providers, KYC providers, fraud-prevention services, analytics
-          providers, business partners and other lawful sources, subject to
-          applicable law and the permissions or consents required.
-        </p>
-
-        <h2 {...h(5)}>5. Purposes of processing</h2>
-        <p>We may process personal data to:</p>
-        <ol style={alpha}>
-          <li>create and manage accounts;</li>
-          <li>authenticate users and recover accounts;</li>
-          <li>provide, maintain and improve the Platform;</li>
-          <li>personalise feeds, recommendations and features;</li>
-          <li>
-            enable creator tools, competitions, rewards, tipping, commerce and
-            payouts;
-          </li>
-          <li>
-            process payments, refunds, KYC and tax-related requirements;
-          </li>
-          <li>
-            communicate service updates, security alerts and support responses;
-          </li>
-          <li>
-            send marketing or promotional communications where required with
-            consent or another lawful basis;
-          </li>
-          <li>
-            detect fraud, spam, abuse, manipulation and security threats;
-          </li>
-          <li>moderate and protect the Platform and its community;</li>
-          <li>analyse usage, troubleshoot and develop products; and</li>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           <li>
             comply with applicable law, court orders and lawful government
             requests.
@@ -385,24 +259,16 @@ export default function PrivacyPage() {
           appropriate notice and seek consent in a manner required by law.
         </p>
         <p>
-<<<<<<< HEAD
           You may withdraw consent where processing is based on consent, for
           example by turning off location or notification access. Withdrawal
           may affect features that require that processing, and we may continue
           processing where permitted or required by law, including for
           security, fraud prevention, dispute resolution, accounting, tax or
-=======
-          You may withdraw consent where processing is based on consent.
-          Withdrawal may affect features that require that processing, and we
-          may continue processing where permitted or required by law, including
-          for security, fraud prevention, dispute resolution, accounting, tax or
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           legal compliance.
         </p>
 
         <h2 {...h(7)}>7. Personalisation, analytics and advertising</h2>
         <p>
-<<<<<<< HEAD
           We use your categories, activity on the Platform and, if you allow
           it, your approximate location to personalise feeds and
           recommendations. We use crash and error reports to find and fix
@@ -412,18 +278,6 @@ export default function PrivacyPage() {
           The Platform does not show third-party advertising and does not use
           advertising, marketing-analytics or cross-app tracking tools. We do
           not sell personal data.
-=======
-          We may use technical, usage and preference information to understand
-          how the Platform is used, improve products, measure performance,
-          prevent abuse and personalise content or recommendations.
-        </p>
-        <p>
-          Where advertising is offered, we may use information to deliver
-          contextual advertising and, where permitted, personalised advertising.
-          We may work with advertising or measurement providers subject to
-          applicable law and required permissions. We do not sell personal data
-          in the ordinary course of business.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(8)}>8. Creator content and platform rights</h2>
@@ -446,7 +300,6 @@ export default function PrivacyPage() {
           and its services.
         </p>
         <p>
-<<<<<<< HEAD
           Any separate commercial licensing, brand usage or third-party use of
           creator content will be governed by the{" "}
           <Link href="/terms">Terms of Use</Link>, the rules of the relevant
@@ -472,35 +325,11 @@ export default function PrivacyPage() {
         <p>
           We retain financial and transaction records for the period required
           by applicable law, accounting, tax, fraud-prevention or
-=======
-          Any separate commercial licensing, brand usage, creator monetisation
-          arrangement or third-party exploitation of creator content will be
-          governed by the applicable Terms, Creator &amp; Monetisation Policy,
-          competition rules or separate agreement. We will not interpret this
-          Privacy Policy as granting GullyFame unlimited ownership of your
-          original content.
-        </p>
-
-        <h2 {...h(9)}>9. Payments, KYC and creator monetisation</h2>
-        <p>
-          If you use tipping, creator payouts, competitions with monetary
-          prizes, commerce or other paid features, we may process payment and
-          KYC information necessary to provide the service, prevent fraud,
-          comply with tax and financial obligations, verify eligibility and make
-          lawful payouts.
-        </p>
-        <p>
-          Payment and KYC information may be processed by payment gateways,
-          banks, KYC providers and other service providers acting on our
-          behalf. We may retain financial/KYC records for the period required by
-          applicable law, accounting, tax, fraud-prevention or
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           dispute-resolution requirements.
         </p>
 
         <h2 {...h(10)}>10. Competitions, rewards and integrity</h2>
         <p>
-<<<<<<< HEAD
           When you take part in competitions or rewards, we process account,
           content, engagement, voting, referral, payment and verification
           information to administer the competition, detect manipulation,
@@ -514,20 +343,6 @@ export default function PrivacyPage() {
           fraudulent referrals and other manipulation. We may restrict, suspend,
           disqualify or withhold rewards where permitted under the applicable
           competition rules.
-=======
-          Where the Platform operates competitions or rewards, we may process
-          account, content, engagement, voting, judging, referral, payment and
-          verification information to administer the competition, detect
-          manipulation, verify eligibility, determine winners, make payouts and
-          handle disputes.
-        </p>
-        <p>
-          We may use automated systems and human review to detect bots,
-          purchased engagement, multiple-account abuse, coordinated or automated
-          voting, fraudulent referrals and other manipulation. We may restrict,
-          suspend, disqualify or withhold rewards where permitted under the
-          applicable competition rules.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(11)}>11. AI, deepfakes and synthetic content</h2>
@@ -540,17 +355,12 @@ export default function PrivacyPage() {
         <p>
           Users must comply with applicable requirements concerning disclosure,
           labelling or other treatment of synthetically generated information as
-<<<<<<< HEAD
           detailed in the <Link href="/faqs">FAQs</Link>. Content that
-=======
-          detailed in the <Link href="/#faq">FAQs</Link>. Content that
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           impersonates a real person, deceives users, facilitates fraud, or
           otherwise violates applicable law or Platform rules may be labelled,
           restricted or removed.
         </p>
         <p>
-<<<<<<< HEAD
           GullyFame may use automated detection or moderation technologies and
           may require additional disclosures or verification where appropriate.
           Specific AI-content rules are set out in the{" "}
@@ -565,17 +375,6 @@ export default function PrivacyPage() {
         <p>
           Any violation may lead to immediate content deletion, temporary
           account suspension or permanent termination, along with forfeiture of
-=======
-          GullyFame may use automated detection, provenance or moderation
-          technologies and may require additional disclosures or verification
-          where appropriate. Specific AI-content rules will also be set out in
-          the <Link href="/community-guidelines">Community Guidelines</Link> and{" "}
-          <Link href="/terms">Terms of Use</Link>.
-        </p>
-        <p>
-          Any violation will lead to immediate content deletion, temporary
-          account suspension, or permanent termination, along with forfeiture of
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           account rights.
         </p>
         <p>
@@ -588,7 +387,6 @@ export default function PrivacyPage() {
         </p>
 
         <h2 {...h(12)}>12. Sharing and disclosure</h2>
-<<<<<<< HEAD
         <p>
           <strong>With other users:</strong> your username, name, profile
           photograph, posted videos, captions, comments, vote counts, points,
@@ -621,29 +419,6 @@ export default function PrivacyPage() {
           We require appropriate contractual, technical or organisational
           safeguards from our service providers where required. We do not sell
           personal data or share it with advertisers.
-=======
-        <p>We may share personal data with:</p>
-        <ol style={alpha}>
-          <li>
-            hosting, cloud, analytics, moderation, customer-support, payment,
-            KYC and security service providers acting on our behalf;
-          </li>
-          <li>affiliates where permitted and necessary for operations;</li>
-          <li>
-            business partners for features you choose to use, subject to
-            applicable requirements;
-          </li>
-          <li>advertising or measurement providers as permitted by law; and</li>
-          <li>
-            law-enforcement, regulators, courts or government authorities where
-            legally required or permitted.
-          </li>
-        </ol>
-        <p>
-          We require appropriate contractual, technical or organisational
-          safeguards from relevant processors/service providers where required.
-          We do not sell personal data in the ordinary course of business.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(13)}>13. Data retention</h2>
@@ -654,7 +429,6 @@ export default function PrivacyPage() {
           fraud-prevention, dispute-resolution and enforcement requirements.
         </p>
         <p>
-<<<<<<< HEAD
           Account and profile data, User Content and KYC images are kept while
           your account exists and are erased when you delete your account, as
           described in section 14. Wallet, transaction, payout, referral and
@@ -663,14 +437,6 @@ export default function PrivacyPage() {
           identifier. Security logs, crash reports and support or dispute
           records are kept for as long as reasonably necessary to protect the
           Platform and to resolve and evidence the matter.
-=======
-          Retention varies by category. Account data may be retained while an
-          account is active and for a limited period thereafter; payment/KYC and
-          tax records may be retained for periods required by law; security and
-          fraud logs may be retained for as long as reasonably necessary to
-          protect the Platform; and support or dispute records may be retained
-          for a reasonable period to resolve and evidence the matter.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
         <p>
           When retention is no longer necessary and no legal exception applies,
@@ -679,7 +445,6 @@ export default function PrivacyPage() {
 
         <h2 {...h(14)}>14. Data deletion and account closure</h2>
         <p>
-<<<<<<< HEAD
           You can delete your account in the app from{" "}
           <strong>Settings &amp; Help &gt; Delete Account</strong>, or by
           contacting us as described on our{" "}
@@ -711,24 +476,10 @@ export default function PrivacyPage() {
           You can instead deactivate your account temporarily from the same
           screen. Deactivation hides your profile, videos and comments and signs
           you out; signing in again reactivates the account.
-=======
-          Where the Platform provides account deletion, you may initiate
-          deletion through the account/settings process or by contacting us
-          through the privacy contact below. Deletion may not immediately remove
-          information that must be retained by law or is required for security,
-          fraud prevention, financial records, disputes or legal claims.
-        </p>
-        <p>
-          Public content, competition records, transaction records or
-          information already lawfully shared with third parties may be subject
-          to separate deletion, retention or archival rules described in the
-          relevant terms.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(15)}>15. User rights</h2>
         <p>
-<<<<<<< HEAD
           Subject to applicable law, you have rights to access information
           about the processing of your personal data, request correction or
           updating, request erasure, withdraw consent where consent is the
@@ -742,35 +493,16 @@ export default function PrivacyPage() {
           requests should be made through the contact details in section 19. We
           may need to verify your identity before completing a request and may
           decline or limit a request where permitted by law.
-=======
-          Subject to applicable law, users may have rights to access information
-          about processing, request correction or updating, request erasure
-          where applicable, withdraw consent where consent is the basis,
-          exercise nomination rights where applicable, and raise grievances with
-          GullyFame and/or the competent authority as provided by law.
-        </p>
-        <p>
-          Requests should be made through the contact details below. We may need
-          to verify identity before completing a request and may decline or
-          limit a request where permitted by law.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(16)}>16. Data security</h2>
         <p>
           We implement reasonable and appropriate technical and organisational
           safeguards designed to protect personal data against unauthorised
-<<<<<<< HEAD
           access, alteration, disclosure, loss, misuse and destruction. These
           include encryption in transit (HTTPS), hashed passwords, short-lived
           sign-in tokens, access controls on KYC and payout data, logging and
           monitoring.
-=======
-          access, alteration, disclosure, loss, misuse and destruction. Measures
-          may include encryption in transit and at rest where appropriate,
-          access controls, authentication, logging, monitoring, vulnerability
-          management, incident response and vendor due diligence.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
         <p>
           No electronic system is completely secure. Users are responsible for
@@ -782,34 +514,20 @@ export default function PrivacyPage() {
         <p>
           If a personal-data breach occurs, GullyFame will assess and respond in
           accordance with applicable law, including required notifications to
-<<<<<<< HEAD
           affected users, the Data Protection Board of India, CERT-In or other
           parties where legally required. We may take immediate measures such as
           account restrictions, credential resets, content restrictions or
           other security controls to contain an incident.
-=======
-          affected users, authorities or other parties where legally required.
-          We may take immediate measures such as account restrictions,
-          credential resets, content restrictions or other security controls to
-          contain an incident.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(18)}>18. Cross-border transfers</h2>
         <p>
-<<<<<<< HEAD
           Some of our service providers listed in section 12, including Google,
           Twilio, Sentry and OpenAI, may process personal data outside India,
           including in the United States. GullyFame transfers personal data
           outside India only in accordance with applicable Indian law, including
           any restrictions, safeguards or government requirements that apply to
           the relevant transfer or recipient.
-=======
-          Where personal data is processed or transferred outside India,
-          GullyFame will do so in accordance with applicable Indian law,
-          including any restrictions, safeguards or government requirements that
-          apply to the relevant transfer or recipient.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(19)}>19. Grievance officer and contact</h2>
@@ -817,7 +535,6 @@ export default function PrivacyPage() {
           For privacy-related queries, complaints, or requests, contact:
         </p>
         <p>
-<<<<<<< HEAD
           <strong>Data Protection Officer / Privacy Officer / Grievance Officer</strong>
           <br />
           Name: Dhruv Kathuria
@@ -835,20 +552,6 @@ export default function PrivacyPage() {
           receiving it and resolve it within 15 days, as required under the
           Information Technology (Intermediary Guidelines and Digital Media
           Ethics Code) Rules, 2021.
-=======
-          <strong>Data Protection Officer / Privacy Officer</strong>
-          <br />
-          Name: [Name of Data Protection Officer]
-          <br />
-          Email: [Privacy contact email]
-          <br />
-          Address: [Postal address]
-        </p>
-        <p>
-          GullyFame India will acknowledge and address grievances within
-          timelines prescribed by applicable law and the applicable Grievance
-          Redressal Policy.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(20)}>20. Changes to this policy</h2>
@@ -856,13 +559,8 @@ export default function PrivacyPage() {
           We may update this Policy to reflect changes in law, technology,
           Platform features or business practices. Where required, we will
           provide notice of material changes and obtain consent where legally
-<<<<<<< HEAD
           necessary. The latest version will always be available on this page
           and in the app.
-=======
-          necessary. The latest version will be made available through the
-          Platform or other appropriate channel.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
 
         <h2 {...h(21)}>21. Governing law</h2>
@@ -877,17 +575,10 @@ export default function PrivacyPage() {
         <p>
           This Privacy Policy should be read together with the GullyFame India{" "}
           <Link href="/terms">Terms of Use</Link>,{" "}
-<<<<<<< HEAD
           <Link href="/community-guidelines">Community Guidelines</Link>, the{" "}
           <Link href="/delete-account">Delete account</Link> page and the{" "}
           <Link href="/faqs">FAQs</Link>, and the rules of any competition you
           enter, which are shown in the app.
-=======
-          <Link href="/community-guidelines">Community Guidelines</Link>,
-          Grievance Redressal Policy, Content Removal Policy, Creator &amp;
-          Monetisation Policy, Competition &amp; Rewards Policy and Copyright /
-          IP Policy, as applicable.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
       </div>
     </PageShell>

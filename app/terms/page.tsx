@@ -59,16 +59,10 @@ export default function TermsPage() {
         <h2 {...h(1)}>1. Agreement and scope</h2>
         <p>
           These Terms of Service (&quot;Terms&quot;) constitute a legally
-<<<<<<< HEAD
           binding agreement between you and Gully Fame India Private Limited
           (&quot;GullyFame India&quot;), a company incorporated under the laws of
           India having its registered office at House 55B, Ground Floor,
           Najafgarh Road, (West Delhi) Delhi - 110015 (&quot;we,&quot; &quot;us,&quot; or
-=======
-          binding agreement between you and GullyFame India, a company
-          incorporated under the laws of India having its registered office at
-          [Registered office address] (&quot;we,&quot; &quot;us,&quot; or
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           &quot;our&quot;), governing your access to and use of the GullyFame
           India mobile application, website, software, features, content,
           tools, and related services (collectively, the &quot;Platform&quot;).
@@ -787,22 +781,16 @@ export default function TermsPage() {
           <br />
           <strong>CIN:</strong> U62099DL2025PTC455455
           <br />
-<<<<<<< HEAD
           <strong>GSTIN:</strong> 07AAMCG3793P1ZP
           <br />
-=======
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           <strong>Registered office:</strong> House 55B, Ground Floor,
           Najafgarh Road, (West Delhi) Delhi - 110015
           <br />
           <strong>Grievance office:</strong> House 55B, Ground Floor,
           Najafgarh Road, (West Delhi) Delhi - 110015
           <br />
-<<<<<<< HEAD
           <strong>Grievance officer:</strong> Dhruv Kathuria
           <br />
-=======
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           <strong>Email:</strong>{" "}
           <a href="mailto:admin@gullyfame.com">admin@gullyfame.com</a>
           <br />

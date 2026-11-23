@@ -48,14 +48,9 @@ export default function ContactPage() {
           <h2>Response times</h2>
           <p>
             We read everything that comes in. Support and content reports are
-<<<<<<< HEAD
             handled first: we acknowledge them within 24 hours and aim to
             resolve them within 72 hours. Partnership and press mail can take a
             little longer.
-=======
-            handled first, usually within [X working days]. Partnership and
-            press mail can take a little longer.
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
           </p>
 
           <h2>Office address</h2>
@@ -64,11 +59,8 @@ export default function ContactPage() {
             <br />
             CIN: U62099DL2025PTC455455
             <br />
-<<<<<<< HEAD
             GSTIN: 07AAMCG3793P1ZP
             <br />
-=======
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
             House 55B, Ground Floor, Najafgarh Road,
             <br />
             (West Delhi) Delhi - 110015
@@ -78,7 +70,6 @@ export default function ContactPage() {
             Mobile: +91 98212 34605
           </p>
 
-<<<<<<< HEAD
           <h2>Grievance Officer</h2>
           <p>
             Under the IT Act, 2000 and the IT (Intermediary Guidelines and
@@ -94,8 +85,6 @@ export default function ContactPage() {
             House 55B, Ground Floor, Najafgarh Road, (West Delhi) Delhi - 110015
           </p>
 
-=======
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </div>
 
         <div className="flex min-w-0 flex-1 basis-[320px] flex-col gap-6">
