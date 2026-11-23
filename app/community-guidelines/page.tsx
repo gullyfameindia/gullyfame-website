@@ -119,12 +119,18 @@ export default function CommunityGuidelinesPage() {
         </p>
         <p>
           If you think we got a decision wrong, reply to the notification you
+<<<<<<< HEAD
           received and ask for a review. Our grievance officer&apos;s details
           are on the <Link href="/contact">contact page</Link>. If you are
           still not satisfied with the grievance officer&apos;s decision, you
           can appeal to the Grievance Appellate Committee within 30 days of
           receiving it, as the Information Technology (Intermediary Guidelines
           and Digital Media Ethics Code) Rules, 2021 provide.
+=======
+          received and ask for a review. [State your appeal window, for example
+          14 days.] Our grievance officer&apos;s details are on the{" "}
+          <Link href="/contact">contact page</Link>.
+>>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
         </p>
       </div>
     </PageShell>
