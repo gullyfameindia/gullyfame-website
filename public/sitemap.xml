@@ -3,11 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://gullyfameindia.com/</loc>
-<<<<<<< HEAD
     <lastmod>2026-11-18</lastmod>
-=======
-    <lastmod>2026-11-04</lastmod>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -16,11 +12,7 @@
   </url>
   <url>
     <loc>https://gullyfameindia.com/about</loc>
-<<<<<<< HEAD
     <lastmod>2026-11-18</lastmod>
-=======
-    <lastmod>2026-10-24</lastmod>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -29,11 +21,7 @@
   </url>
   <url>
     <loc>https://gullyfameindia.com/faqs</loc>
-<<<<<<< HEAD
     <lastmod>2026-11-18</lastmod>
-=======
-    <lastmod>2026-10-24</lastmod>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -42,11 +30,7 @@
   </url>
   <url>
     <loc>https://gullyfameindia.com/contact</loc>
-<<<<<<< HEAD
-    <lastmod>2026-11-20</lastmod>
-=======
-    <lastmod>2026-10-26</lastmod>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
+    <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -55,11 +39,7 @@
   </url>
   <url>
     <loc>https://gullyfameindia.com/community-guidelines</loc>
-<<<<<<< HEAD
     <lastmod>2026-11-23</lastmod>
-=======
-    <lastmod>2026-11-04</lastmod>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -68,11 +48,7 @@
   </url>
   <url>
     <loc>https://gullyfameindia.com/privacy</loc>
-<<<<<<< HEAD
     <lastmod>2026-11-23</lastmod>
-=======
-    <lastmod>2026-10-24</lastmod>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <image:image>
@@ -81,11 +57,7 @@
   </url>
   <url>
     <loc>https://gullyfameindia.com/terms</loc>
-<<<<<<< HEAD
-    <lastmod>2026-11-20</lastmod>
-=======
-    <lastmod>2026-10-26</lastmod>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
+    <lastmod>2026-11-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <image:image>
@@ -94,11 +66,7 @@
   </url>
   <url>
     <loc>https://gullyfameindia.com/delete-account</loc>
-<<<<<<< HEAD
     <lastmod>2026-11-18</lastmod>
-=======
-    <lastmod>2026-11-04</lastmod>
->>>>>>> 02a378d996b4eb63a313b6cfbbc306409af65e23
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <image:image>
